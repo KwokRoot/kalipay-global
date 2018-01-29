@@ -1,0 +1,35 @@
+1、该练习是对支付宝Api授权登录、获取会员信息、获取芝麻信用分的练习。
+2、包结构
+	│
+	├─src
+	│  └─com
+	│      └─kwok
+	│          └─alipay
+	│              ├─config
+	│              │      AlipayConfig.java
+	│              │
+	│              ├─servlet
+	│              │      Alipay.java
+	│              │      AlipayOAuth.java
+	│              │      AlipayUserInfoShare.java
+	│              │      AlipayZhimaCreditScore.java
+	│              │      AlipayZhimaCreditScoreBrief.java
+	│              │      ZhimaMerchantDataUpload.java
+	│              │
+	│              └─util
+	│                      CommonUtil.java
+	│                      ZhimaMerchantDataUpload.java
+	│
+	└─WebContent
+	    │  index.jsp
+	    │
+	    └─WEB-INF
+	        │  web.xml
+	        │
+	        ├─jsp
+	        │      ReturnZhiMa.jsp
+	        │
+	        └─lib
+	                alipay-sdk-java20171121170307.jar
+	                commons-logging-1.1.1.jar
+	                fastjson-1.1.64.android.jar
